@@ -15,14 +15,13 @@ PKG_RELEASE:=1
 
 PKG_IS_KERNEL_MODULE=y
 
-PKG_SOURCE_VERSION:=9695eef9759b50c8fe8daf27ac1238df2af4c395
-PKG_SOURCE_URL:=ssh://git@gts-chd.intel.com:29418/sw_ugw/dc_dp_drv.git
+PKG_SOURCE_VERSION:=cf1677862aa4849e8fa9425a1f695ba5f5a51227
+PKG_SOURCE_URL:=https://intel.prpl.dev/intel/directconnect_dp.git
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_MIRROR:=1
 PKG_MIRROR:=0
 PKG_DEFAULT_CUSTOM_SOURCE_DIR:=/dc_dp_drv/
 
-include $(INCLUDE_DIR)/package-version-override.mk
 include $(INCLUDE_DIR)/package.mk
 
 define KernelPackage/$(PKG_NAME)
