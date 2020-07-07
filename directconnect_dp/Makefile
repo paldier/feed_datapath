@@ -16,7 +16,7 @@ PKG_RELEASE:=1
 PKG_IS_KERNEL_MODULE=y
 
 PKG_SOURCE_VERSION:=cf1677862aa4849e8fa9425a1f695ba5f5a51227
-PKG_SOURCE_URL:=https://intel.prpl.dev/intel/directconnect_dp.git
+PKG_SOURCE_URL:=https://github.com/paldier/directconnect_dp.git
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_MIRROR:=1
 PKG_MIRROR:=0
